@@ -1,6 +1,6 @@
 import time
 from datetime import datetime, timedelta
-from remainder1 import get_time_input
+from reminder import get_time_input
         
 def main():
     task = input("Enter your task: ")

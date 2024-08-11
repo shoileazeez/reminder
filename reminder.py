@@ -1,5 +1,4 @@
-from datetime import datetime, timedelta
-import time
+from datetime import datetime
 def get_time_input():
     while True:
         time_input = input("Enter the time for the reminder (HH:MM in 12-hour format): ")

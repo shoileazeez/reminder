@@ -1,6 +1,6 @@
 import time
 from datetime import datetime, timedelta
-from remainder1 import get_time_input
+from reminder import get_time_input
         
 def main():
     task = input("Enter your task: ")
@@ -28,6 +28,5 @@ def main():
             print(f"Reminder: You have a task '{task}' now at {reminder_time.strftime('%I:%M')}")
             # time.sleep(300)
             break        
-# if __name__ == "__main__":
-    # main()
+
             
