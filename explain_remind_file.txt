@@ -1,0 +1,110 @@
+creating a remainder file that ask user to selected which time they will like to be reminded from 5 minutes to 30 minutes 
+creating a reminder file that ask the user if they want to set a reminder 
+creating a reminder file that prompt the user to input the time they will like to be reminded
+creating a module for  the reminder 
+
+syntax
+using match case after asking user if user want to set a reminder and using break to break the file if yes or no and if user enter something different from that the code is keep repeating until user click either yes/no
+match
+   case"yes":
+    break
+   case"no":
+     print("No reminder set. Exiting.")
+    break 
+   case _: 
+    print("Invalid input. Please enter 'yes' or 'no'.") 
+
+
+defining a function that ask user the time of the reminder in 12--hours format
+using the datetime modules to check if the time is in 12--hours format and print ValueError
+
+
+modules for 5 minutes before the time 
+using the time , datetime, timedelta modules,
+using the get_time_input modules created by me that ask user if they want to set a reminder and the time for the reminder
+using datetime.now.date to get the current date and time 
+using timedelta to check if time is in the present or the past
+using timedelta to to subtract 5 minutes before the user reminder  time so that it will remind user 5 minutes before the user set time 
+using time.sleep to sleep the code for another 5 minute so that it will remind the user the time user set for the reminder
+and using break to break the code to prevent continues execution
+
+modules for 10 minutes before the time  
+using the time , datetime, timedelta modules,
+using the get_time_input modules created by me that ask user if they want to set a reminder and the time for the reminder
+using datetime.now.date to get the current date and time 
+using timedelta to check if time is in the present or the past
+using timedelta to to subtract 10 minutes before the user reminder  time so that it will remind user 10 minutes before the user set time 
+using time.sleep to sleep the code for another 10 minute so that it will remind the user the time user set for the reminder
+and using break to break the code to prevent continues execution
+
+modules for 15 minutes before the time 
+using the time , datetime, timedelta modules,
+using the get_time_input modules created by me that ask user if they want to set a reminder and the time for the reminder
+using datetime.now.date to get the current date and time 
+using timedelta to check if time is in the present or the past
+using timedelta to to subtract 15 minutes before the user reminder  time so that it will remind user 15 minutes before the user set time 
+using time.sleep to sleep the code for another 15 minute so that it will remind the user the time user set for the reminder
+and using break to break the code to prevent continues execution
+
+modules for 20 minutes before the time 
+using the time , datetime, timedelta modules,
+using the get_time_input modules created by me that ask user if they want to set a reminder and the time for the reminder
+using datetime.now.date to get the current date and time 
+using timedelta to check if time is in the present or the past
+using timedelta to to subtract 20 minutes before the user reminder  time so that it will remind user 20 minutes before the user set time 
+using time.sleep to sleep the code for another 20 minute so that it will remind the user the time user set for the reminder
+and using break to break the code to prevent continues execution
+
+modules for 25 minutes before the time 
+using the time , datetime, timedelta modules,
+using the get_time_input modules created by me that ask user if they want to set a reminder and the time for the reminder
+using datetime.now.date to get the current date and time 
+using timedelta to check if time is in the present or the past
+using timedelta to to subtract 25 minutes before the user reminder  time so that it will remind user 25 minutes before the user set time 
+using time.sleep to sleep the code for another 25 minute so that it will remind the user the time user set for the reminder
+and using break to break the code to prevent continues execution
+
+modules for 30 minutes before the time 
+using the time , datetime, timedelta modules,
+using the get_time_input modules created by me that ask user if they want to set a reminder and the time for the reminder
+using datetime.now.date to get the current date and time 
+using timedelta to check if time is in the present or the past
+using timedelta to to subtract 30 minutes before the user reminder  time so that it will remind user 30 minutes before the user set time 
+using time.sleep to sleep the code for another 30 minute so that it will remind the user the time user set for the reminder
+and using break to break the code to prevent continues execution
+
+craeting a main file for the execution the code
+importing modules for 5 minutes
+importing modules for 10 minutes
+importing modules for 15 minutes
+importing modules for 20 minutes
+importing modules for 25 minutes
+importing modules for 30 minutes
+prompt user to selct 1 - 6  according to the time they will like to be reminded
+1 for 5 minutes before
+2 for 10 minutes before
+3 for 15 minutes before
+4 for 20 minutes before
+5 for 25 minutes before
+6 for 30 minutes before
+
+using match case to run the code according to user selection, also handling if the user select a wrong choice 
+match choice:
+   case"1":
+      reaminder_5_minutes.main()
+   case "2":
+        reminder_10_minutes.main()
+    case "3":
+        reminder_15_minutes.main()
+    case "4":
+        reminder_20_minutes.main()
+    case "5":
+        remider_25_minutes.main()
+    case "6":
+        reminder_30_minutes.main()   
+    case_:
+        print("Invalid choice. Please try again.")                     
+        main()
+
+incoming update 
+1 sending reminder to user email
